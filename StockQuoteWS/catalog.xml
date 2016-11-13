@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://finance.yahoo.com/?wsdl" uri="xml-resources/web-service-references/WsClient/wsdl/finance.yahoo.com/.wsdl"/>
+    <system systemId="https://www.google.com/finance?wsdl" uri="xml-resources/web-service-references/finance/wsdl/www.google.com/finance.wsdl"/>
+    <system systemId="http://money.cnn.com/data/dow30/?wsdl" uri="xml-resources/web-service-references/WsClient_1/wsdl/money.cnn.com/data/dow30/.wsdl"/>
+    <system systemId="http://www.cnbc.com/dow-components/?wsdl" uri="xml-resources/web-service-references/WsClient_2/wsdl/www.cnbc.com/dow-components/.wsdl"/>
+    <system systemId="https://finance.yahoo.com?WSDL" uri="xml-resources/web-service-references/finance.yahoo/wsdl/finance.yahoo.com.wsdl"/>
+    <system systemId="http://ws.cdyne.com/delayedstockquote/delayedstockquote.asmx?wsdl" uri="xml-resources/web-service-references/delayedstockquote/wsdl/ws.cdyne.com/delayedstockquote/delayedstockquote.asmx.wsdl"/>
+    <system systemId="http://www.webservicex.com/stockquote.asmx?WSDL" uri="xml-resources/web-service-references/stockquote_1/wsdl/www.webservicex.com/stockquote.asmx.wsdl"/>
+</catalog>
