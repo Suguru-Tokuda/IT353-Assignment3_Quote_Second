@@ -6,11 +6,11 @@
 package stockPOJO;
 
 import javax.jws.WebService;
-import stockquotews.StockQuoteDAO;
+import stockQuotesDAO.StockQuoteDAO;
 
 /**
  *
- * @author Suguru
+ * @author Suguru & Sneh
  */
 @WebService
 public class StockQuoteWS {

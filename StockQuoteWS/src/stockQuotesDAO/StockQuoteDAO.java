@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package stockquotews;
+package stockQuotesDAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -29,7 +27,7 @@ public class StockQuoteDAO {
         
         try {
             PreparedStatement pstmt = DBConn.prepareStatement(query);
-            pstmt.setString(1, input);
+            pstmt.setString(1, input.toUpperCase());
             ResultSet rs = pstmt.executeQuery();
             if (rs.next()) {
                 retVal = rs.getInt("price");
